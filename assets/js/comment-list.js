@@ -3,7 +3,7 @@ CommentList = React.createClass({
         return (
             <div className="comment-list">
                 comment list
-                <Comment name="qiqi">hi little white</Comment>
+                <Comment name="qiqi">hi **little white**</Comment>
             </div>
         )
     }
