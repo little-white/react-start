@@ -7,6 +7,7 @@
     <script src="assets/js/vendor/react-dom.js"></script>
     <script src="assets/js/vendor/browser.min.js"></script>
     <script src="assets/js/vendor/remarkable.min.js"></script>
+    <script src="assets/js/vendor/jquery.min.js"></script>
 </head>
 <body>
 <div id="app"></div>
@@ -14,6 +15,22 @@
     //需要给自定义的组件定义全局变量，否则会提示组件没定义
     var CommentForm,CommentList,Comment;
 </script>
+<!--<script type="text/babel">-->
+    <!--var H1 = React.createClass({-->
+        <!--componentDidMount: function () {-->
+            <!--console.log(1);-->
+        <!--},-->
+        <!--render: function () {-->
+            <!--return (-->
+                    <!--<h1>hi</h1>-->
+            <!--)-->
+        <!--}-->
+    <!--})-->
+    <!--ReactDOM.render(-->
+        <!--<H1 />,-->
+        <!--document.getElementById('app')-->
+    <!--)-->
+<!--</script>-->
 <script type="text/babel" src="assets/js/comment-form.js"></script>
 <script type="text/babel" src="assets/js/comment.js"></script>
 <script type="text/babel" src="assets/js/comment-list.js"></script>
